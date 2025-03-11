@@ -7,6 +7,10 @@ const box = document.getElementById("box");
           } else {
               let li = document.createElement("li");
               li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic";
+            li.addEventListener("click", function () {
+            li.classList.toggle("line-through");
+            });
+
               li.innerHTML = `<span>${box.value}</span>`;
               let span = document.createElement("span");
               span.innerHTML = "\u00D7";
