@@ -6,12 +6,11 @@ const box = document.getElementById("box");
               alert("You must type something!");
           } else {
               let li = document.createElement("li");
-              li.className = "flex justify-between items-center bg-gray-200 p-2 my-2 ml-16 w-full px-4 py-4 hover:cursor-pointer rounded-lg font-mono italic";
+              li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic";
               li.innerHTML = `<span>${box.value}</span>`;
               let span = document.createElement("span");
               span.innerHTML = "\u00D7";
-              span.className = "text-red-600 font-bold cursor-pointer hover:text-red-800";
-              
+              span.className = "text-red-600 pl-4 right-0 font-bold cursor-pointer hover:text-red-800";
               span.onclick = function() {
                   li.remove();
               };
@@ -21,3 +20,9 @@ const box = document.getElementById("box");
           }
           box.value = "";
         }
+        box.addEventListener("keypress", function(event) {
+            if (event.key === "Enter") { 
+                addTask(); // Call the function when Enter is pressed
+            }
+        });
+        

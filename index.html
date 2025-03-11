@@ -9,17 +9,17 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>To-Do-List</title>
   </head>
   <body>
-  <div class="flex justify-center items-center flex-col mt-20 bg-white w-3xl mx-auto py-6 h-auto rounded-lg border-2">
-      <h3 class="font-bold text-2xl mb-8 font-sans flex gap-3 items-center">To-Do-List<image src="notebook-svgrepo-com.svg" class="h-11 w-11"></image></h3>
+  <div class="flex justify-center items-center flex-col my-24 bg-white w-xl mx-auto py-6 h-auto shadow-lg rounded-lg border-2">
+      <h3 class="font-bold text-2xl mb-8 font-mono italic flex gap-3 items-center">To-Do-List<image src="notebook-svgrepo-com.svg" class="h-11 w-11"></image></h3>
       <div  class="flex py-8 -space-x-20">
       <input class=" rounded-l-full rounded-r-full w-96 h-3 pl-8 pr-24 py-8 text-lg border-2 border-black font-mono italic" type="text" placeholder="Add your task..." id="box">
       <button class="rounded-full px-7 bg-black text-white font-mono italic tracking-wide" onclick="addTask()">Add</button>
       </div>
-      <div class="-my-0 ml-16">
-        <ul class="mr-96 px-6" id="list-container">
+      <div class="-my-0  flex justify-center items-center contain-content" >
+        <ul class="inline-block px-6 max-w-xl" id="list-container">
         </ul>
       </div>
   </div>
