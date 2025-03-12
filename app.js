@@ -13,7 +13,7 @@ const box = document.getElementById("box");
 
               li.innerHTML = `<span>${box.value}</span>`;
               let span = document.createElement("span");
-              span.innerHTML = "X";
+              span.innerHTML = "x";
               span.className = "w-4 h-4 flex items-center justify-center bg-black text-white rounded-full ml-4 hover:bg-red-600 transition duration-200";
               span.onclick = function() {
                   li.remove();
