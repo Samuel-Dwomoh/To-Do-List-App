@@ -1,4 +1,5 @@
 const box = document.getElementById("box");
+const head = document.getElementById("head");
       const listContainer = document.getElementById("list-container");
 
       function addTask() {
@@ -29,4 +30,4 @@ const box = document.getElementById("box");
                 addTask();
             }
         });
-        
+        head.classList.add("hover:cursor-pointer");
