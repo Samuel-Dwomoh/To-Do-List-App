@@ -1,6 +1,8 @@
 const box = document.getElementById("box");
 const head = document.getElementById("head");
-      const listContainer = document.getElementById("list-container");
+const dark = document.getElementById("dark");
+const main = document.getElementById("main");
+const listContainer = document.getElementById("list-container");
 
       function addTask() {
           if (box.value.trim() === "") {
@@ -31,3 +33,7 @@ const head = document.getElementById("head");
             }
         });
         head.classList.add("hover:cursor-pointer");
+
+        dark.addEventListener("click",()=>{
+            main.classList.toggle("bg-black");
+        })
