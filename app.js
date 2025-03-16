@@ -35,5 +35,5 @@ const listContainer = document.getElementById("list-container");
         head.classList.add("hover:cursor-pointer");
 
         dark.addEventListener("click",()=>{
-            main.classList.toggle("bg-black");
+        /*Ading dark mode feature here soon*/
         })
