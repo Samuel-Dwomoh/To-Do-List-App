@@ -36,4 +36,5 @@ const listContainer = document.getElementById("list-container");
 
         dark.addEventListener("click",()=>{
         /*Ading dark mode feature here soon*/
+        alert("Dark mode coming soon!");
         })
