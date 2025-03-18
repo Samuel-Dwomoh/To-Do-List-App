@@ -9,7 +9,7 @@ const listContainer = document.getElementById("list-container");
               alert("You must type something!");
           } else {
               let li = document.createElement("li");
-              li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 flex justify-center items-center hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic shadow";
+              li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 flex justify-between items-center hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic shadow";
             li.addEventListener("click", function () {
             li.classList.toggle("line-through");
             });
