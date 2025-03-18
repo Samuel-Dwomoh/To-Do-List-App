@@ -27,6 +27,7 @@ const listContainer = document.getElementById("list-container");
           }
           box.value = "";
         }
+
         box.addEventListener("keypress", function(event) {
             if (event.key === "Enter") { 
                 addTask();
