@@ -24,19 +24,24 @@ function addTask() {
                 tooltip.remove();
             }
         });
+
         li.addEventListener("click", () => {
-            let tooltip = li.querySelector("div");
-            if (tooltip) {
-                tooltip.innerText = "Click once again to mark as unread";
-            }
-        })
-        li.addEventListener("click", function () {
             li.classList.toggle("line-through");
         });
 
         li.innerHTML = `<span>${box.value}</span>`;
+
         let span = document.createElement("span");
-        span.innerHTML = "";
+        span.className = "w-6 h-6 ml-1";
+
+        let animation = lottie.loadAnimation({
+            container: span, 
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "cross.json"
+        });
+
         span.onclick = function () {
             li.remove();
         };
@@ -46,6 +51,7 @@ function addTask() {
     }
     box.value = "";
 }
+
 
 box.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
