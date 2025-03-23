@@ -10,25 +10,25 @@ function addTask() {
     } else {
         let li = document.createElement("li");
         li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 flex justify-between items-center hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic shadow";
-
+        
         li.addEventListener("mouseenter", () => {
             let tooltip = document.createElement("div");
             tooltip.innerText = "Click to mark as done!";
             tooltip.className = "absolute bg-black text-white text-xs px-2 rounded-md transform -translate-y-2";
             li.appendChild(tooltip);
         });
-
+        
         li.addEventListener("mouseleave", () => {
             let tooltip = li.querySelector("div");
             if (tooltip) {
                 tooltip.remove();
             }
         });
-
+        
         li.addEventListener("click", () => {
             li.classList.toggle("line-through");
         });
-
+        
         li.innerHTML = `<span>${box.value}</span>`;
 
         let span = document.createElement("span");
@@ -41,7 +41,7 @@ function addTask() {
             autoplay: true,
             path: "cross.json"
         });
-
+        
         span.onclick = function () {
             li.remove();
         };
@@ -52,12 +52,12 @@ function addTask() {
     box.value = "";
 }
 
-
 box.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         addTask();
     }
 });
+
 head.classList.add("hover:cursor-pointer");
 
 dark.addEventListener("click", () => {
