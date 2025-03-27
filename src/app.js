@@ -40,7 +40,7 @@ function addTask() {
             renderer: "svg",
             loop: true,
             autoplay: true,
-            path: "Cross.json"
+            path: "/Cross.json"
         });
         
         span.onclick = function () {
