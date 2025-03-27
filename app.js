@@ -5,6 +5,7 @@ const main = document.getElementById("main");
 const listContainer = document.getElementById("list-container");
 
 function addTask() {
+
     if (box.value.trim() === "") {
         alert("You must type something!");
     } else {
@@ -63,4 +64,5 @@ head.classList.add("hover:cursor-pointer");
 dark.addEventListener("click", () => {
     /*Ading dark mode feature here soon*/
     alert("Dark mode coming soon!");
+    
 })
