@@ -66,3 +66,5 @@ dark.addEventListener("click", () => {
     alert("Dark mode coming soon!");
     
 })
+
+window.addTask = addTask;
