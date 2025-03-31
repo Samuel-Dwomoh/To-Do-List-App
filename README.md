@@ -3,7 +3,7 @@ A simple to list built with HTML, Tailwind CSS and Javascript:
 ## Features
 <ul>
 <li>Add new tasks</li>
-<li></li>
+<li>Mark Tasks as completed</li>
 <li></li>
 <li></li>
 <li></li>
