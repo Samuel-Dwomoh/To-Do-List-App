@@ -10,7 +10,7 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 <li>Local storage support- to persist tasks after refreshing</li>
 </ul>
 
-## Preview
+## 🖼️ Preview
 ![Screenshot](/public/Screenshot.jpg)
 Here is how the To-Do List looks
 
