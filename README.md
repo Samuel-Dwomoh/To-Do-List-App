@@ -37,15 +37,15 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 git clone https://github.com/your-username/todo-list.git
 cd todo-list
 ```
-<li>Open index.html in your browser</li>
+<li>Open index.html in your browser.</li>
 
 ## 🖥️ Demo
 Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 
 ## How It Works
 <ol>
-<li>Type task in the input field</li>
-<li></li>
-<li></li>
+<li>Type task in the input field.</li>
+<li>Click "Add" to add the task to the list.</li>
+<li>Click </li>
 <li></li>
 </ol> 
