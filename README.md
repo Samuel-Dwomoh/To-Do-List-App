@@ -40,6 +40,4 @@ cd todo-list
 <li>Open index.html in your browser</li>
 
 ## 🖥️ Demo
-<ul>
-<li>dfdf</li>
-</ul>
+Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
