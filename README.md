@@ -50,7 +50,14 @@ Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 <li>Click the delete button  to remove a task.</li>
 </ol> 
 
-## Future Improvements
+## 📌 Future Improvements
 <ul>
-<li></li>
+<li>Add drag & drop to reorder tasks.</li>
+<li>Implement local storage to save tasks even after closing the browser.</li>
+<li>Add a dark mode option.</li>
 </ul>
+
+## Contributing
+Feel free to fork this repository and add your own features!
+
+##
