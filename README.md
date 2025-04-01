@@ -42,4 +42,10 @@ cd todo-list
 ## 🖥️ Demo
 Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 
-##
+## How It Works
+<ol>
+<li>Type task in the input field</li>
+<li></li>
+<li></li>
+<li></li>
+</ol> 
