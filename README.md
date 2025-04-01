@@ -10,6 +10,10 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 <li>Local storage support- to persist tasks after refreshing</li>
 </ul>
 
+## Preview
+![Screenshot](/public/Screenshot.jpg)
+Here is how the To-Do List looks
+
 ## 📂 Project structure
     └── To-Do-List-WebApp/
     ├── index.html
@@ -62,3 +66,5 @@ Feel free to fork this repository and add your own features!
 
 ## License
 This project is <b>MIT licensed</b>.
+
+
