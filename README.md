@@ -29,5 +29,9 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 <li>Javascript → Adding functionality(adding, deleting, and marking tasks)</li>
 </ul>
 
-
+## Usage
+```bash
+git clone https://github.com/your-username/todo-list.git
+cd todo-list
+```
 [Click here for live demo](https://to-do-list-app-samuel-dwomoh.vercel.app/)
