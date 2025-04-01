@@ -46,6 +46,6 @@ Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 <ol>
 <li>Type task in the input field.</li>
 <li>Click "Add" to add the task to the list.</li>
-<li>Click </li>
+<li>Click a task to mark it as completed (line-through).</li>
 <li></li>
 </ol> 
