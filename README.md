@@ -47,5 +47,10 @@ Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 <li>Type task in the input field.</li>
 <li>Click "Add" to add the task to the list.</li>
 <li>Click a task to mark it as completed (line-through).</li>
-<li></li>
+<li>Click the delete button  to remove a task.</li>
 </ol> 
+
+## Future Improvements
+<ul>
+<li></li>
+</ul>
