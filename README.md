@@ -60,4 +60,5 @@ Live demo: [Click here](https://to-do-list-app-samuel-dwomoh.vercel.app/)
 ## Contributing
 Feel free to fork this repository and add your own features!
 
-##
+## License
+This project is <b>MIT licensed</b>.
