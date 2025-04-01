@@ -29,7 +29,7 @@ Here is how the To-Do List looks
 ## 🛠️ Technologies Used        
 <ul>
 <li>HTML → Structuring the to-do list</li>
-<li>Tailwind CSSS → Styling for a sleek UI</li>
+<li>Tailwind CSS → Styling for a sleek UI</li>
 <li>Javascript → Adding functionality(adding, deleting, and marking tasks)</li>
 </ul>
 
