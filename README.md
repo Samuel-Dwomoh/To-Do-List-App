@@ -30,8 +30,13 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 </ul>
 
 ## Usage
+<ol>
+<li>Clone the repository</li><br>
+
 ```bash
 git clone https://github.com/your-username/todo-list.git
 cd todo-list
 ```
+<li>Open index.html in your browser</li>
+
 [Click here for live demo](https://to-do-list-app-samuel-dwomoh.vercel.app/)
