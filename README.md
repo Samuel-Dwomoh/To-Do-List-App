@@ -39,4 +39,5 @@ cd todo-list
 ```
 <li>Open index.html in your browser</li>
 
-[Click here for live demo](https://to-do-list-app-samuel-dwomoh.vercel.app/)
+## 🖥️ Demo
+<ul></ul[Click here for live demo](https://to-do-list-app-samuel-dwomoh.vercel.app/)
