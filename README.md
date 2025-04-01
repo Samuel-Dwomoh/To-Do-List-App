@@ -1,11 +1,26 @@
-# Simple To-Do-List App   
-A simple to list built with HTML, Tailwind CSS and Javascript:  
+# 📝 Simple To-Do-List App   
+A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing users to add, complete, and delete tasks efficiently. 
+
 ## Features
 <ul>
-<li>Add new tasks</li>
-<li>Mark Tasks as completed</li>
-<li>Delete tasks</li>
+<li>Add new tasks ✅</li>
+<li>Mark Tasks as completed ❌</li>
+<li>Delete tasks 🗑️</li>
 <li>Responsive design with Tailwind CSS</li>
-<li></li>
+<li>Local storage support (optional: to persist tasks after refreshing)</li>
 </ul>
+
+## 📂 Project structure
+    └── To-Do-List-WebApp/
+    ├── index.html
+    ├── README.md
+    ├── src/  
+    │   ├── app.js  
+    │   ├── main.js  
+    │   └── style.css  
+    └── public/  
+        ├── Cross.json  
+        └── vite.svg  
+## 🛠️ Technologies Used        
+
 [Click here for live demo](https://to-do-list-app-samuel-dwomoh.vercel.app/)
