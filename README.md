@@ -30,7 +30,7 @@ Here is how the To-Do List looks
 <ul>
 <li>HTML → Structuring the to-do list</li>
 <li>Tailwind CSS → Styling for a sleek UI</li>
-<li>Javascript → Adding functionality(adding, deleting, and marking tasks)</li>
+<li>Javascript → Adding functionality (adding, deleting, and marking tasks)</li>
 </ul>
 
 ## 📜 Usage
