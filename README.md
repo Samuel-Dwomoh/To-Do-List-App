@@ -6,7 +6,7 @@ A simple to-do list App built with HTML, Tailwind CSS and Javascript, allowing u
 <li>Add new tasks ✅</li>
 <li>Mark Tasks as completed ❌</li>
 <li>Delete tasks 🗑️</li>
-<li>Responsive design with Tailwind CSS <-- still in progress</li>
+<li>Responsive design <-- still in progress</li>
 <li>Local storage support- to persist tasks after refreshing</li>
 </ul>
 
