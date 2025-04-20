@@ -10,12 +10,12 @@ function addTask() {
         alert("You must type something!");
     } else {
         let li = document.createElement("li");
-        li.className = "bg-gray-200 my-2 pl-4 pr-2 py-4 flex justify-between items-center hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic shadow";
+        li.className = "bg-white my-2 pl-4 pr-2 py-4 flex justify-between items-center hover:cursor-pointer break-words whitespace-normal rounded-xl font-mono italic shadow border outline";
 
         li.addEventListener("mouseenter", () => {
             let tooltip = document.createElement("div");
             tooltip.innerText = "Click to mark as done!";
-            tooltip.className = "absolute bg-black text-white text-xs px-2 rounded-md transform -translate-y-2";
+            tooltip.className = "absolute bg-black text-white text-xs px-2 rounded-md transform -translate-y-3 mt-2";
             li.appendChild(tooltip);
         });
 
@@ -63,7 +63,8 @@ head.classList.add("hover:cursor-pointer");
 
 dark.addEventListener("click", () => {
     /*Ading dark mode feature here soon*/
-    alert("Dark mode coming soon!");
+    //alert("Dark mode coming soon!");
+    
 
 })
 
