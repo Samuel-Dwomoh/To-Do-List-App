@@ -62,10 +62,10 @@ box.addEventListener("keypress", function (event) {
 head.classList.add("hover:cursor-pointer");
 
 dark.addEventListener("click", () => {
+    
     /*Ading dark mode feature here soon*/
     //alert("Dark mode coming soon!");
     
-
 })
 
 window.addTask = addTask;
