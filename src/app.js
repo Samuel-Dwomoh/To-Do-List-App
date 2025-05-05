@@ -4,7 +4,8 @@ const dark = document.getElementById("dark");
 const main = document.getElementById("main");
 const listContainer = document.getElementById("list-container");
 
-alert("For the best experience please number your tasks!");
+alert("For the best experience please number your tasks like 1. Task, 2. Task, etc.");
+alert("Click on the task to mark it as done!");
 function addTask() {
     if (box.value.trim() === "") {
         alert("You must type something!");
