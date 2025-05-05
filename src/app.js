@@ -4,8 +4,8 @@ const dark = document.getElementById("dark");
 const main = document.getElementById("main");
 const listContainer = document.getElementById("list-container");
 
+alert("For the best experience please number your tasks!");
 function addTask() {
-
     if (box.value.trim() === "") {
         alert("You must type something!");
     } else {
@@ -62,7 +62,7 @@ box.addEventListener("keypress", function (event) {
 head.classList.add("hover:cursor-pointer");
 
 dark.addEventListener("click", () => {
-    
+
     /*Ading dark mode feature here soon*/
     //alert("Dark mode coming soon!");
     
