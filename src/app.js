@@ -3,9 +3,7 @@ const head = document.getElementById("head");
 const dark = document.getElementById("dark");
 const main = document.getElementById("main");
 const listContainer = document.getElementById("list-container");
-
-alert("For the best experience please number your tasks like 1. Task, 2. Task, etc.");
-alert("Click on the task to mark it as done!");
+alert("Welcome to the To-Do List App! 🎉\n\nThis is a simple app to help you manage your tasks.\n\nYou can add tasks, mark them as done, and remove them when you're finished.\n\nEnjoy using the app! 😊\nDark mode coming soon!");
 function addTask() {
     if (box.value.trim() === "") {
         alert("You must type something!");
@@ -63,7 +61,6 @@ box.addEventListener("keypress", function (event) {
 head.classList.add("hover:cursor-pointer");
 
 dark.addEventListener("click", () => {
-
     /*Ading dark mode feature here soon*/
     //alert("Dark mode coming soon!");
     
